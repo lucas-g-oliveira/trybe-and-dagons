@@ -10,7 +10,7 @@ export default class Halfling extends Race {
     Halfling._instances += 1;
   }
 
-  static createdRacesInstances():number {
+  static override createdRacesInstances():number {
     return Halfling._instances;
   }
 
