@@ -1,4 +1,4 @@
-export default abstract class Race {
+abstract class Race {
   private _name:string;
   private _dexterity:number;
 
@@ -14,3 +14,5 @@ export default abstract class Race {
 
   static createdRacesInstances():number { throw new Error('Not implemented'); }
 }
+
+export default Race;
